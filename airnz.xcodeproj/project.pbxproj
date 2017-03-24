@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA01CCC1E84806B005F4DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CCB1E84806B005F4DE3 /* AppDelegate.swift */; };
+		DCA01CCE1E84806B005F4DE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CCD1E84806B005F4DE3 /* ViewController.swift */; };
+		DCA01CD11E84806B005F4DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA01CCF1E84806B005F4DE3 /* Main.storyboard */; };
+		DCA01CD31E84806B005F4DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA01CD21E84806B005F4DE3 /* Assets.xcassets */; };
+		DCA01CD61E84806B005F4DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA01CD41E84806B005F4DE3 /* LaunchScreen.storyboard */; };
+		DCA01CE11E84806B005F4DE3 /* airnzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CE01E84806B005F4DE3 /* airnzTests.swift */; };
+		DCA01CE61E84806B005F4DE3 /* airnz WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DCA01CE51E84806B005F4DE3 /* airnz WatchKit App.app */; };
+		DCA01CEC1E84806B005F4DE3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA01CEA1E84806B005F4DE3 /* Interface.storyboard */; };
+		DCA01CEE1E84806B005F4DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA01CED1E84806B005F4DE3 /* Assets.xcassets */; };
+		DCA01CF51E84806B005F4DE3 /* airnz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DCA01CF41E84806B005F4DE3 /* airnz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCA01CFC1E84806B005F4DE3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CFB1E84806B005F4DE3 /* InterfaceController.swift */; };
+		DCA01CFE1E84806B005F4DE3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CFD1E84806B005F4DE3 /* ExtensionDelegate.swift */; };
+		DCA01D001E84806B005F4DE3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CFF1E84806B005F4DE3 /* NotificationController.swift */; };
+		DCA01D021E84806B005F4DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA01D011E84806B005F4DE3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA01CDD1E84806B005F4DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA01CC01E84806B005F4DE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA01CC71E84806B005F4DE3;
+			remoteInfo = airnz;
+		};
+		DCA01CE71E84806B005F4DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA01CC01E84806B005F4DE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA01CE41E84806B005F4DE3;
+			remoteInfo = "airnz WatchKit App";
+		};
+		DCA01CF61E84806B005F4DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA01CC01E84806B005F4DE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA01CF31E84806B005F4DE3;
+			remoteInfo = "airnz WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCA01D091E84806B005F4DE3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DCA01CF51E84806B005F4DE3 /* airnz WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA01D0D1E84806B005F4DE3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DCA01CE61E84806B005F4DE3 /* airnz WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCA01CC81E84806B005F4DE3 /* airnz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airnz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA01CCB1E84806B005F4DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA01CCD1E84806B005F4DE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCA01CD01E84806B005F4DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA01CD21E84806B005F4DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA01CD51E84806B005F4DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA01CD71E84806B005F4DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA01CDC1E84806B005F4DE3 /* airnzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airnzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA01CE01E84806B005F4DE3 /* airnzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airnzTests.swift; sourceTree = "<group>"; };
+		DCA01CE21E84806B005F4DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA01CE51E84806B005F4DE3 /* airnz WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airnz WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA01CEB1E84806B005F4DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DCA01CED1E84806B005F4DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA01CEF1E84806B005F4DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA01CF41E84806B005F4DE3 /* airnz WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "airnz WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA01CFA1E84806B005F4DE3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DCA01CFB1E84806B005F4DE3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DCA01CFD1E84806B005F4DE3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DCA01CFF1E84806B005F4DE3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DCA01D011E84806B005F4DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA01D031E84806B005F4DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA01D161E8483A0005F4DE3 /* airnz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = airnz.entitlements; sourceTree = "<group>"; };
+		DCA01D171E8483AF005F4DE3 /* airnz WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "airnz WatchKit App.entitlements"; sourceTree = "<group>"; };
+		DCA01D181E84A435005F4DE3 /* airnz WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "airnz WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA01CC51E84806B005F4DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA01CD91E84806B005F4DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA01CF11E84806B005F4DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA01CBF1E84806B005F4DE3 = {
+			isa = PBXGroup;
+			children = (
+				DCA01CCA1E84806B005F4DE3 /* airnz */,
+				DCA01CDF1E84806B005F4DE3 /* airnzTests */,
+				DCA01CE91E84806B005F4DE3 /* airnz WatchKit App */,
+				DCA01CF81E84806B005F4DE3 /* airnz WatchKit Extension */,
+				DCA01CC91E84806B005F4DE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA01CC91E84806B005F4DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA01CC81E84806B005F4DE3 /* airnz.app */,
+				DCA01CDC1E84806B005F4DE3 /* airnzTests.xctest */,
+				DCA01CE51E84806B005F4DE3 /* airnz WatchKit App.app */,
+				DCA01CF41E84806B005F4DE3 /* airnz WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA01CCA1E84806B005F4DE3 /* airnz */ = {
+			isa = PBXGroup;
+			children = (
+				DCA01D161E8483A0005F4DE3 /* airnz.entitlements */,
+				DCA01CCB1E84806B005F4DE3 /* AppDelegate.swift */,
+				DCA01CCD1E84806B005F4DE3 /* ViewController.swift */,
+				DCA01CCF1E84806B005F4DE3 /* Main.storyboard */,
+				DCA01CD21E84806B005F4DE3 /* Assets.xcassets */,
+				DCA01CD41E84806B005F4DE3 /* LaunchScreen.storyboard */,
+				DCA01CD71E84806B005F4DE3 /* Info.plist */,
+			);
+			path = airnz;
+			sourceTree = "<group>";
+		};
+		DCA01CDF1E84806B005F4DE3 /* airnzTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA01CE01E84806B005F4DE3 /* airnzTests.swift */,
+				DCA01CE21E84806B005F4DE3 /* Info.plist */,
+			);
+			path = airnzTests;
+			sourceTree = "<group>";
+		};
+		DCA01CE91E84806B005F4DE3 /* airnz WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DCA01D171E8483AF005F4DE3 /* airnz WatchKit App.entitlements */,
+				DCA01CEA1E84806B005F4DE3 /* Interface.storyboard */,
+				DCA01CED1E84806B005F4DE3 /* Assets.xcassets */,
+				DCA01CEF1E84806B005F4DE3 /* Info.plist */,
+			);
+			path = "airnz WatchKit App";
+			sourceTree = "<group>";
+		};
+		DCA01CF81E84806B005F4DE3 /* airnz WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCA01D181E84A435005F4DE3 /* airnz WatchKit Extension.entitlements */,
+				DCA01CFB1E84806B005F4DE3 /* InterfaceController.swift */,
+				DCA01CFD1E84806B005F4DE3 /* ExtensionDelegate.swift */,
+				DCA01CFF1E84806B005F4DE3 /* NotificationController.swift */,
+				DCA01D011E84806B005F4DE3 /* Assets.xcassets */,
+				DCA01D031E84806B005F4DE3 /* Info.plist */,
+				DCA01CF91E84806B005F4DE3 /* Supporting Files */,
+			);
+			path = "airnz WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DCA01CF91E84806B005F4DE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA01CFA1E84806B005F4DE3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA01CC71E84806B005F4DE3 /* airnz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA01D0E1E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnz" */;
+			buildPhases = (
+				DCA01CC41E84806B005F4DE3 /* Sources */,
+				DCA01CC51E84806B005F4DE3 /* Frameworks */,
+				DCA01CC61E84806B005F4DE3 /* Resources */,
+				DCA01D0D1E84806B005F4DE3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA01CE81E84806B005F4DE3 /* PBXTargetDependency */,
+			);
+			name = airnz;
+			productName = airnz;
+			productReference = DCA01CC81E84806B005F4DE3 /* airnz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA01CDB1E84806B005F4DE3 /* airnzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA01D111E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnzTests" */;
+			buildPhases = (
+				DCA01CD81E84806B005F4DE3 /* Sources */,
+				DCA01CD91E84806B005F4DE3 /* Frameworks */,
+				DCA01CDA1E84806B005F4DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA01CDE1E84806B005F4DE3 /* PBXTargetDependency */,
+			);
+			name = airnzTests;
+			productName = airnzTests;
+			productReference = DCA01CDC1E84806B005F4DE3 /* airnzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCA01CE41E84806B005F4DE3 /* airnz WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA01D0A1E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnz WatchKit App" */;
+			buildPhases = (
+				DCA01CE31E84806B005F4DE3 /* Resources */,
+				DCA01D091E84806B005F4DE3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA01CF71E84806B005F4DE3 /* PBXTargetDependency */,
+			);
+			name = "airnz WatchKit App";
+			productName = "airnz WatchKit App";
+			productReference = DCA01CE51E84806B005F4DE3 /* airnz WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DCA01CF31E84806B005F4DE3 /* airnz WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA01D061E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnz WatchKit Extension" */;
+			buildPhases = (
+				DCA01CF01E84806B005F4DE3 /* Sources */,
+				DCA01CF11E84806B005F4DE3 /* Frameworks */,
+				DCA01CF21E84806B005F4DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "airnz WatchKit Extension";
+			productName = "airnz WatchKit Extension";
+			productReference = DCA01CF41E84806B005F4DE3 /* airnz WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA01CC01E84806B005F4DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Claudius Mbemba";
+				TargetAttributes = {
+					DCA01CC71E84806B005F4DE3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22CH9M2V69;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DCA01CDB1E84806B005F4DE3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22CH9M2V69;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCA01CC71E84806B005F4DE3;
+					};
+					DCA01CE41E84806B005F4DE3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22CH9M2V69;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DCA01CF31E84806B005F4DE3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22CH9M2V69;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DCA01CC31E84806B005F4DE3 /* Build configuration list for PBXProject "airnz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA01CBF1E84806B005F4DE3;
+			productRefGroup = DCA01CC91E84806B005F4DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA01CC71E84806B005F4DE3 /* airnz */,
+				DCA01CDB1E84806B005F4DE3 /* airnzTests */,
+				DCA01CE41E84806B005F4DE3 /* airnz WatchKit App */,
+				DCA01CF31E84806B005F4DE3 /* airnz WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA01CC61E84806B005F4DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA01CD61E84806B005F4DE3 /* LaunchScreen.storyboard in Resources */,
+				DCA01CD31E84806B005F4DE3 /* Assets.xcassets in Resources */,
+				DCA01CD11E84806B005F4DE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA01CDA1E84806B005F4DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA01CE31E84806B005F4DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA01CEE1E84806B005F4DE3 /* Assets.xcassets in Resources */,
+				DCA01CEC1E84806B005F4DE3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA01CF21E84806B005F4DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA01D021E84806B005F4DE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA01CC41E84806B005F4DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA01CCE1E84806B005F4DE3 /* ViewController.swift in Sources */,
+				DCA01CCC1E84806B005F4DE3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA01CD81E84806B005F4DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA01CE11E84806B005F4DE3 /* airnzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA01CF01E84806B005F4DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA01D001E84806B005F4DE3 /* NotificationController.swift in Sources */,
+				DCA01CFE1E84806B005F4DE3 /* ExtensionDelegate.swift in Sources */,
+				DCA01CFC1E84806B005F4DE3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA01CDE1E84806B005F4DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA01CC71E84806B005F4DE3 /* airnz */;
+			targetProxy = DCA01CDD1E84806B005F4DE3 /* PBXContainerItemProxy */;
+		};
+		DCA01CE81E84806B005F4DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA01CE41E84806B005F4DE3 /* airnz WatchKit App */;
+			targetProxy = DCA01CE71E84806B005F4DE3 /* PBXContainerItemProxy */;
+		};
+		DCA01CF71E84806B005F4DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA01CF31E84806B005F4DE3 /* airnz WatchKit Extension */;
+			targetProxy = DCA01CF61E84806B005F4DE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA01CCF1E84806B005F4DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA01CD01E84806B005F4DE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA01CD41E84806B005F4DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA01CD51E84806B005F4DE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA01CEA1E84806B005F4DE3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA01CEB1E84806B005F4DE3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA01D041E84806B005F4DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA01D051E84806B005F4DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA01D071E84806B005F4DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "airnz WatchKit Extension/airnz WatchKit Extension.entitlements";
+				DEVELOPMENT_TEAM = 22CH9M2V69;
+				INFOPLIST_FILE = "airnz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudius.airnz.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		DCA01D081E84806B005F4DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "airnz WatchKit Extension/airnz WatchKit Extension.entitlements";
+				DEVELOPMENT_TEAM = 22CH9M2V69;
+				INFOPLIST_FILE = "airnz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudius.airnz.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		DCA01D0B1E84806B005F4DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "airnz WatchKit App/airnz WatchKit App.entitlements";
+				DEVELOPMENT_TEAM = 22CH9M2V69;
+				IBSC_MODULE = airnz_WatchKit_Extension;
+				INFOPLIST_FILE = "airnz WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudius.airnz.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		DCA01D0C1E84806B005F4DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "airnz WatchKit App/airnz WatchKit App.entitlements";
+				DEVELOPMENT_TEAM = 22CH9M2V69;
+				IBSC_MODULE = airnz_WatchKit_Extension;
+				INFOPLIST_FILE = "airnz WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudius.airnz.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		DCA01D0F1E84806B005F4DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = airnz/airnz.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 22CH9M2V69;
+				INFOPLIST_FILE = airnz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudius.airnz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCA01D101E84806B005F4DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = airnz/airnz.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 22CH9M2V69;
+				INFOPLIST_FILE = airnz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudius.airnz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DCA01D121E84806B005F4DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22CH9M2V69;
+				INFOPLIST_FILE = airnzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudiusmbemba.airnzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airnz.app/airnz";
+			};
+			name = Debug;
+		};
+		DCA01D131E84806B005F4DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22CH9M2V69;
+				INFOPLIST_FILE = airnzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudiusmbemba.airnzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airnz.app/airnz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA01CC31E84806B005F4DE3 /* Build configuration list for PBXProject "airnz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA01D041E84806B005F4DE3 /* Debug */,
+				DCA01D051E84806B005F4DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA01D061E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnz WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA01D071E84806B005F4DE3 /* Debug */,
+				DCA01D081E84806B005F4DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCA01D0A1E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnz WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA01D0B1E84806B005F4DE3 /* Debug */,
+				DCA01D0C1E84806B005F4DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCA01D0E1E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA01D0F1E84806B005F4DE3 /* Debug */,
+				DCA01D101E84806B005F4DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCA01D111E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA01D121E84806B005F4DE3 /* Debug */,
+				DCA01D131E84806B005F4DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA01CC01E84806B005F4DE3 /* Project object */;
+}
