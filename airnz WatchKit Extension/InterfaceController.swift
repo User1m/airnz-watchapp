@@ -39,6 +39,7 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func recordAudio() {
+        self.resultLabel.setText("");
         let duration = TimeInterval(10)
         
         let recordOptions =

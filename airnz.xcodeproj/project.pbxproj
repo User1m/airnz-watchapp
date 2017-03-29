@@ -702,6 +702,7 @@
 				DCA01D081E84806B005F4DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCA01D0A1E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnz WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -710,6 +711,7 @@
 				DCA01D0C1E84806B005F4DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCA01D0E1E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnz" */ = {
 			isa = XCConfigurationList;
@@ -718,6 +720,7 @@
 				DCA01D101E84806B005F4DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCA01D111E84806B005F4DE3 /* Build configuration list for PBXNativeTarget "airnzTests" */ = {
 			isa = XCConfigurationList;
@@ -726,6 +729,7 @@
 				DCA01D131E84806B005F4DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
