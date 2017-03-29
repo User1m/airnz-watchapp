@@ -134,10 +134,6 @@ class InterfaceController: WKInterfaceController {
             NSLog("%@", "\n==========================================\n\n\n Claudius Logging:\n @file: \(#file)\n @func: \(#function)\n @line: \(#line)\n @data: \(data) \n @resp: \(response) \n @err: \(error)   \n\n\n==========================================\n");
             if let realData = data {
                 self.writeReturnedAudioToFile(audioData:  realData)
-                // FOR TEXT_ENDPOINT
-                // let strData = NSString(data: realData, encoding: String.Encoding.utf8.rawValue)
-                // NSLog("%@", "\n==========================================\n\n\n Claudius Logging:\n @file: \(#file)\n @func: \(#function)\n @line: \(#line)\n @data: \(strData!)   \n\n\n==========================================\n");
-                // self.resultLabel.setText(strData as String?);
             }
         })
         
