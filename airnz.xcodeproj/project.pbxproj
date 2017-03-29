@@ -16,12 +16,12 @@
 		DCA01CE11E84806B005F4DE3 /* airnzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CE01E84806B005F4DE3 /* airnzTests.swift */; };
 		DCA01CE61E84806B005F4DE3 /* airnz WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DCA01CE51E84806B005F4DE3 /* airnz WatchKit App.app */; };
 		DCA01CEC1E84806B005F4DE3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA01CEA1E84806B005F4DE3 /* Interface.storyboard */; };
-		DCA01CEE1E84806B005F4DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA01CED1E84806B005F4DE3 /* Assets.xcassets */; };
 		DCA01CF51E84806B005F4DE3 /* airnz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DCA01CF41E84806B005F4DE3 /* airnz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DCA01CFC1E84806B005F4DE3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CFB1E84806B005F4DE3 /* InterfaceController.swift */; };
 		DCA01CFE1E84806B005F4DE3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CFD1E84806B005F4DE3 /* ExtensionDelegate.swift */; };
 		DCA01D001E84806B005F4DE3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CFF1E84806B005F4DE3 /* NotificationController.swift */; };
 		DCA01D021E84806B005F4DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA01D011E84806B005F4DE3 /* Assets.xcassets */; };
+		DCB766871E8B7E4600AA4426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB766861E8B7E4600AA4426 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +87,6 @@
 		DCA01CE21E84806B005F4DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCA01CE51E84806B005F4DE3 /* airnz WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airnz WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA01CEB1E84806B005F4DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		DCA01CED1E84806B005F4DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA01CEF1E84806B005F4DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCA01CF41E84806B005F4DE3 /* airnz WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "airnz WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA01CFA1E84806B005F4DE3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -99,6 +98,7 @@
 		DCA01D161E8483A0005F4DE3 /* airnz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = airnz.entitlements; sourceTree = "<group>"; };
 		DCA01D171E8483AF005F4DE3 /* airnz WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "airnz WatchKit App.entitlements"; sourceTree = "<group>"; };
 		DCA01D181E84A435005F4DE3 /* airnz WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "airnz WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		DCB766861E8B7E4600AA4426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 			children = (
 				DCA01D171E8483AF005F4DE3 /* airnz WatchKit App.entitlements */,
 				DCA01CEA1E84806B005F4DE3 /* Interface.storyboard */,
-				DCA01CED1E84806B005F4DE3 /* Assets.xcassets */,
 				DCA01CEF1E84806B005F4DE3 /* Info.plist */,
+				DCB766861E8B7E4600AA4426 /* Assets.xcassets */,
 			);
 			path = "airnz WatchKit App";
 			sourceTree = "<group>";
@@ -370,8 +370,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCA01CEE1E84806B005F4DE3 /* Assets.xcassets in Resources */,
 				DCA01CEC1E84806B005F4DE3 /* Interface.storyboard in Resources */,
+				DCB766871E8B7E4600AA4426 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

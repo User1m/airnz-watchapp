@@ -9,8 +9,11 @@
 import WatchKit
 import Foundation
 
-let TEXT_ENDPOINT = "http://wavy.azurewebsites.net/speech/text";
-let AUDIO_ENDPOINT = "http://wavy.azurewebsites.net/speech/audio";
+let TEXT_ENDPOINT = "http://wavy.azurewebsites.net/speech/text"
+let AUDIO_ENDPOINT = "http://wavy.azurewebsites.net/speech/audio"
+let RESPONSE_FILE = "airnz_response.wav"
+let FILE_NAME = "audioFile.wav"
+let APP_GROUP = "group.com.airnz"
 
 class InterfaceController: WKInterfaceController {
     
@@ -27,9 +30,9 @@ class InterfaceController: WKInterfaceController {
         let fileManager = FileManager.default
         
         let container =
-            fileManager.containerURL(forSecurityApplicationGroupIdentifier: "group.com.airnz")
+            fileManager.containerURL(forSecurityApplicationGroupIdentifier: APP_GROUP)
 
-        let fileName = "audioFile.wav"
+        let fileName = FILE_NAME
         
         saveUrl = container?.appendingPathComponent(fileName) as NSURL?;
         
@@ -144,7 +147,7 @@ class InterfaceController: WKInterfaceController {
     
     func writeReturnedAudioToFile(audioData: Data){
         let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
-        let filePath = documentsPath.appending("result.wav")
+        let filePath = documentsPath.appending(RESPONSE_FILE)
         let fileURL = URL(fileURLWithPath: filePath)
         
         do {
