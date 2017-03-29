@@ -26,7 +26,6 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        //        self.playButton.setEnabled(false)
         let fileManager = FileManager.default
         
         let container =
@@ -59,7 +58,6 @@ class InterfaceController: WKInterfaceController {
                 }
                 
                 if saved {
-                    //  self.playButton.setEnabled(true)
                     self.postToApi(api: AUDIO_ENDPOINT)
                 }
         })
