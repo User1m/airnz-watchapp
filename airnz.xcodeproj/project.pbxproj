@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC8405EB1E8B6B4500A2E3C1 /* b001.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC8405EA1E8B6B4500A2E3C1 /* b001.wav */; };
 		DCA01CCC1E84806B005F4DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CCB1E84806B005F4DE3 /* AppDelegate.swift */; };
 		DCA01CCE1E84806B005F4DE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA01CCD1E84806B005F4DE3 /* ViewController.swift */; };
 		DCA01CD11E84806B005F4DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA01CCF1E84806B005F4DE3 /* Main.storyboard */; };
@@ -74,7 +73,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DC8405EA1E8B6B4500A2E3C1 /* b001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = b001.wav; sourceTree = "<group>"; };
 		DCA01CC81E84806B005F4DE3 /* airnz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airnz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA01CCB1E84806B005F4DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCA01CCD1E84806B005F4DE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 		DCA01CF81E84806B005F4DE3 /* airnz WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DC8405EA1E8B6B4500A2E3C1 /* b001.wav */,
 				DCA01D181E84A435005F4DE3 /* airnz WatchKit Extension.entitlements */,
 				DCA01CFB1E84806B005F4DE3 /* InterfaceController.swift */,
 				DCA01CFD1E84806B005F4DE3 /* ExtensionDelegate.swift */,
@@ -380,7 +377,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCA01D021E84806B005F4DE3 /* Assets.xcassets in Resources */,
-				DC8405EB1E8B6B4500A2E3C1 /* b001.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
